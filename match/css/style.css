@@ -705,7 +705,7 @@ a:hover {
 ======================================*/
 
 .service-box {
-  background-color: #fff;
+  background-color: #2789fa;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -726,6 +726,7 @@ a:hover {
 .service-box .ico-circle {
   transition: all 500ms ease;
   font-size: 4rem;
+  
 }
 
 .service-box .s-title {
@@ -733,10 +734,12 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
+  color: #faea0a;
+  font-weight: bold;
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #f0efe9;
 }
 
 /*======================================
