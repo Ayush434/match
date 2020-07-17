@@ -705,7 +705,7 @@ a:hover {
 ======================================*/
 
 .service-box {
-  background-color: #2789fa;
+  background-color: #254193;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -714,7 +714,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: #254193;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
@@ -734,7 +734,7 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
-  color: #faea0a;
+  color: #ce9418;
   font-weight: bold;
 }
 
@@ -1271,4 +1271,134 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+}
+
+@media (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll;
+  }
+  .mt-main-div {
+    flex-direction: column !important;
+  }
+  .content-div {
+    background-color: #254193;
+    color: black; 
+    width: 85% !important; 
+    height: 250px !important; 
+    display: flex; 
+    padding-bottom: 25px !important;
+    border-radius: 1rem; 
+    flex-direction: row !important; 
+    align-items: center; 
+    box-shadow:0 5px 16px 0 rgb(0,0,0),0 6px 20px 0 rgb(0,0,0);
+    padding: 0px 25px;
+  }
+  .pic-div {
+    background-color: white;
+    height: 200px !important;
+    width: 85%;
+    margin-top: 30px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .pic {
+    background-size: contain !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+  .content-div {
+    background-color: #254193;
+    color: black; 
+    width: 82% !important; 
+    height: 196px !important; 
+    display: flex; 
+    padding-bottom: 25px !important;
+    border-radius: 1rem; 
+    flex-direction: row !important; 
+    align-items: center; 
+    box-shadow:0 5px 16px 0 rgb(0,0,0),0 6px 20px 0 rgb(0,0,0);
+    padding: 0px 7px;
+  }
+  .pic-div {
+    background-color: white;
+    height: 184px !important;
+    width: 85%;
+    margin-top: 25px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 7px;
+  }
+  .mt-h-tag {
+    color: #ce9418; 
+    margin-top: 22px !important; 
+    margin-bottom: 7px !important;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .mt-p-tag {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 1450px) {
+  .mt-p-tag {
+    font-size: 12px;
+  }
+}
+
+
+.mt-main-div {
+  display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    z-index: 400;
+    position: relative;
+    flex-direction: row;
+}
+
+.content-div {
+  background-color: #254193;
+  color: black; 
+  width: 25%; 
+  height: 750px; 
+  display: flex; 
+  border-radius: 1rem; 
+  flex-direction: column; 
+  align-items: center; 
+  box-shadow:0 5px 16px 0 rgb(0,0,0),0 6px 20px 0 rgb(0,0,0);
+}
+
+.pic-div {
+  background-color: white;
+  height:450px;
+  width: 85%;
+  margin-top: 30px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
+.pic {
+  background-size: contain;
+} 
+
+.mt-h-tag {
+  color: #ce9418; 
+  margin-top: 10px; 
+  margin-bottom: 20px;  
+  font-weight: bold;
 }
